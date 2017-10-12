@@ -1,4 +1,4 @@
-package Codingdojang;
+package codingdojang;
 
 public class CD393 {
 

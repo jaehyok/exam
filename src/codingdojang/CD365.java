@@ -1,4 +1,4 @@
-package Codingdojang;
+package codingdojang;
 
 import java.util.HashMap;
 import java.util.Map;

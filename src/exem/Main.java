@@ -4,6 +4,7 @@ import codingdojang.CD266;
 import codingdojang.CD365;
 import codingdojang.CD393;
 import codingdojang.CD408;
+import codingdojang.CD410;
 
 public class Main {
 
@@ -26,6 +27,11 @@ public class Main {
 	start = System.currentTimeMillis();
 	CD266 cd266 = new CD266();
 	cd266.run();
+	System.out.println("dt : " + (System.currentTimeMillis() - start) / 1000.0 + "\n");
+
+	start = System.currentTimeMillis();
+	CD410 cd410 = new CD410();
+	cd410.run();
 	System.out.println("dt : " + (System.currentTimeMillis() - start) / 1000.0 + "\n");
 
     }

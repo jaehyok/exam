@@ -6,6 +6,7 @@ import codingdojang.CD365;
 import codingdojang.CD393;
 import codingdojang.CD408;
 import codingdojang.CD410;
+import codingdojang.CD416;
 import codingdojang.CD570;
 import codingdojang.CD572;
 
@@ -51,6 +52,11 @@ public class Main {
 	CD314 cd314 = new CD314();
 	cd314.run();
 	System.out.println("CD314 dt : " + (System.currentTimeMillis() - start) / 1000.0 + "\n");
+
+	start = System.currentTimeMillis();
+	CD416 cd416 = new CD416();
+	cd416.run();
+	System.out.println("CD416 dt : " + (System.currentTimeMillis() - start) / 1000.0 + "\n");
 
     }
 }

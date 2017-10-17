@@ -47,35 +47,35 @@ public class CD314 {
  */
 
 	public void run() {
-		while (true) {
-			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-			String input = "";
-			try {
-				input = in.readLine();
-			} catch (IOException e) {
-				e.printStackTrace();
-				return;
-			}
+//		while (true) {
+//			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+//			String input = "";
+//			try {
+//				input = in.readLine();
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//				return;
+//			}
+//
+//			String param[] = input.split(" ");
+//			if (param.length != 2)
+//				return;
+//
+//			int s = Integer.parseInt(param[0]);
+//			int n = Integer.parseInt(param[1]);
+//			if (s < 1 || s > 9)
+//				return;
+//			if (n < 0 || s > 100000000)
+//				return;
+//
+//			if (s == 0 && n == 0)
+//				return;
+//
+//			printLCD(String.format("%d", n), s);
+//		}
 
-			String param[] = input.split(" ");
-			if (param.length != 2)
-				return;
-
-			int s = Integer.parseInt(param[0]);
-			int n = Integer.parseInt(param[1]);
-			if (s < 1 || s > 9)
-				return;
-			if (n < 0 || s > 100000000)
-				return;
-
-			if (s == 0 && n == 0)
-				return;
-
-			printLCD(String.format("%d", n), s);
-		}
-
-//		printLCD("12345", 2);
-//		printLCD("67890", 3);
+		printLCD("12345", 2);
+		printLCD("67890", 3);
 	}
 
 	private void printLCD(String number, int size) {
